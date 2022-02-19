@@ -38,6 +38,7 @@ int main()
 }
 
 //Prints sizes,addresses
+//hi1
 void printing_results(void)
 {
 	printf("size of car struct is:    %d ",sizeof(car1));
