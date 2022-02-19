@@ -20,11 +20,12 @@ int main()
 {
 	printing_results();
 	//Allocate memory for integer
+	//hi 
     car1.random =  malloc(sizeof(uint8_t*));
     //check allocated memory
     if((car1.random) == NULL)
     {
-      //  printf("FAIL TO ALLOCATE MEMORY\n");
+        printf("FAIL TO ALLOCATE MEMORY\n");
     }
     // Copy 12 in piData
     *car1.random = 122;
